@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="1.0" layoutY="-22.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="471.0" prefWidth="610.0">
+         <children>
+            <Label layoutX="65.0" layoutY="54.0" text="Add site to tour" textFill="#3695d0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Button layoutX="67.0" layoutY="382.0" mnemonicParsing="false" text="Add site" />
+            <TextField layoutX="70.0" layoutY="93.0" text="Name" />
+            <ComboBox layoutX="67.0" layoutY="307.0" nodeOrientation="LEFT_TO_RIGHT" prefWidth="150.0" promptText="Site accessibility">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </ComboBox>
+            <TextField layoutX="67.0" layoutY="342.0" prefHeight="25.0" prefWidth="170.0" text="Recommanded visit duration" />
+            <TextField layoutX="70.0" layoutY="131.0" prefHeight="25.0" prefWidth="149.0" text="Location on map" />
+            <ComboBox layoutX="67.0" layoutY="270.0" nodeOrientation="LEFT_TO_RIGHT" prefWidth="150.0" promptText="Type">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </ComboBox>
+            <Button layoutX="237.0" layoutY="271.0" mnemonicParsing="false" text="Add type" />
+            <TextArea layoutX="70.0" layoutY="168.0" prefHeight="85.0" prefWidth="229.0" text="Description" />
+         </children>
+      </AnchorPane>
+      <MenuBar layoutY="-1.0" prefHeight="30.0" prefWidth="713.0" style="-fx-background-color: LIGHTBLUE;">
+         <menus>
+            <Menu mnemonicParsing="false" text="Main">
+               <items>
+                  <MenuItem mnemonicParsing="false" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Edit map">
+               <items>
+                  <MenuItem mnemonicParsing="false" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="View statistics">
+               <items>
+                  <MenuItem mnemonicParsing="false" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Update rates" visible="false">
+               <items>
+                  <MenuItem mnemonicParsing="false" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Create report" visible="false">
+               <items>
+                  <MenuItem mnemonicParsing="false" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Inbox">
+               <items>
+                  <MenuItem mnemonicParsing="false" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <TextField layoutX="490.0" layoutY="2.0" prefHeight="2.0" prefWidth="150.0" promptText="Username" text="Search" />
+      <Button layoutX="645.0" layoutY="1.0" mnemonicParsing="false" style="-fx-background-color: LIGHTBLUE;" text="Log out" textFill="#3695d0" />
+   </children>
+</AnchorPane>

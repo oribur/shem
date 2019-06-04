@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="421.0" prefWidth="715.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="55.0" layoutY="64.0" text="Welcome to GCM site" textFill="#3695d0">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+      <Label layoutX="427.0" layoutY="313.0" text="GCM">
+         <font>
+            <Font size="57.0" />
+         </font>
+      </Label>
+      <Label layoutX="453.0" layoutY="380.0" text="Global City Map" />
+      <ImageView fitHeight="63.0" fitWidth="66.0" layoutX="550.0" layoutY="334.0">
+         <image>
+            <Image url="@../../../../Project/globeIcon.gif" />
+         </image>
+      </ImageView>
+      <Button layoutX="453.0" layoutY="270.0" mnemonicParsing="false" text="View cities catalog" textFill="#3695d0">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <MenuBar layoutY="-1.0" prefHeight="30.0" prefWidth="715.0" style="-fx-background-color: LIGHTBLUE;">
+         <menus>
+            <Menu mnemonicParsing="false" text="Main">
+               <items>
+                  <MenuItem mnemonicParsing="false" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="View purchased maps">
+               <items>
+                  <MenuItem mnemonicParsing="false" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Collection subscribe">
+               <items>
+                  <MenuItem mnemonicParsing="false" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="One time purchase">
+               <items>
+                  <MenuItem mnemonicParsing="false" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Inbox">
+               <items>
+                  <MenuItem mnemonicParsing="false" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <TextField layoutX="488.0" layoutY="2.0" prefHeight="2.0" prefWidth="150.0" promptText="Username" text="Search" />
+      <Label layoutX="150.0" layoutY="147.0" text="You have 0 new messages">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="25.0" fitWidth="47.0" layoutX="101.0" layoutY="145.0">
+         <image>
+            <Image url="@../../../../Project/mailIcon.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="643.0" layoutY="1.0" mnemonicParsing="false" style="-fx-background-color: LIGHTBLUE;" text="Log out" textFill="#3695d0" />
+      <Button layoutX="453.0" layoutY="238.0" mnemonicParsing="false" text="View client card" textFill="#3695d0">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
